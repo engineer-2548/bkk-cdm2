@@ -220,8 +220,8 @@
                     <span id="heroText">กิจกรรมพัฒนาทักษะการคิดและแก้ปัญหาสำหรับเด็ก</span>
                 </p>
                 <div class="flex flex-col md:flex-row gap-4 justify-center slide-in-right">
-                    <a href="#register" class="px-8 py-4 bg-white text-purple-600 rounded-full font-semibold text-lg hover:scale-110 transition-all pulse-button shadow-xl">
-                        <i class="fas fa-rocket mr-2"></i><span id="joinBtn">ลงทะเบียนเข้าร่วม</span>
+                    <a href="#contact" class="px-8 py-4 bg-white text-purple-600 rounded-full font-semibold text-lg hover:scale-110 transition-all pulse-button shadow-xl">
+                        <i class="fas fa-phone-volume mr-2"></i><span id="joinBtn">ติดต่อสอบถาม</span>
                     </a>
                     <a href="#info" class="px-8 py-4 bg-purple-600/20 backdrop-blur-md text-white border-2 border-white rounded-full font-semibold text-lg hover:bg-white hover:text-purple-600 transition-all">
                         <i class="fas fa-info-circle mr-2"></i><span id="moreBtn">ข้อมูลเพิ่มเติม</span>
@@ -328,110 +328,78 @@
     </section>
 
     <!-- Location & Contact Section -->
-    <section id="register" class="py-20 px-4">
+    <section id="contact" class="py-20 px-4">
         <div class="container mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <!-- Contact Info -->
-                <div class="bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-xl slide-in-left">
-                    <h3 class="text-2xl md:text-3xl font-bold mb-6 text-gray-800">
-                        <i class="fas fa-map-marker-alt text-red-500 mr-2"></i><span id="locationTitle">สถานที่และการติดต่อ</span>
-                    </h3>
-                    
-                    <div class="space-y-4">
-                        <div class="flex items-start space-x-3">
-                            <i class="fas fa-building text-purple-600 mt-1"></i>
+            <div class="bg-white/90 backdrop-blur-md rounded-3xl p-8 md:p-12 shadow-xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                    <i class="fas fa-map-marker-alt text-red-500 mr-3"></i><span id="locationTitle">สถานที่และการติดต่อ</span>
+                </h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Left Column - Museum Info -->
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-building text-purple-600 text-2xl mt-1"></i>
                             <div>
-                                <p class="font-semibold" id="museum">พิพิธภัณฑ์เด็กกรุงเทพมหานครแห่งที่ 2 (ทุ่งครุ)</p>
+                                <p class="font-bold text-xl mb-2" id="museum">พิพิธภัณฑ์เด็กกรุงเทพมหานครแห่งที่ 2 (ทุ่งครุ)</p>
                                 <p class="text-gray-600" id="museumDesc">ให้บริการสำหรับเด็ก เยาวชน และครอบครัว</p>
                             </div>
                         </div>
                         
-                        <div class="flex items-center space-x-3">
-                            <i class="fas fa-clock text-blue-600"></i>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-clock text-blue-600 text-2xl"></i>
                             <div>
-                                <p class="font-semibold" id="hours">เวลาเปิดทำการ</p>
+                                <p class="font-bold text-lg mb-1" id="hours">เวลาเปิดทำการ</p>
                                 <p class="text-gray-600" id="hoursDetail">อังคาร-อาทิตย์ และวันหยุดนักขัตฤกษ์</p>
-                                <p class="text-gray-600">10:00 - 16:00 น.</p>
-                                <p class="text-red-500 text-sm" id="closed">(ปิดทุกวันจันทร์)</p>
+                                <p class="text-gray-800 font-semibold">10:00 - 16:00 น.</p>
+                                <p class="text-red-500 font-medium" id="closed">(ปิดทุกวันจันทร์)</p>
                             </div>
                         </div>
                         
-                        <div class="flex items-center space-x-3">
-                            <i class="fas fa-phone text-green-600"></i>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-phone text-green-600 text-2xl"></i>
                             <div>
-                                <p class="font-semibold" id="contact">ติดต่อสอบถาม</p>
-                                <p class="text-gray-600">โทร: 02 426 3623, 082 752 9202</p>
+                                <p class="font-bold text-lg mb-1" id="contact">ติดต่อสอบถาม</p>
+                                <p class="text-gray-700 font-medium">โทร: 02 426 3623</p>
+                                <p class="text-gray-700 font-medium">มือถือ: 082 752 9202</p>
                             </div>
                         </div>
                         
-                        <div class="flex items-center space-x-3">
-                            <i class="fab fa-line text-green-500 text-xl"></i>
+                        <div class="flex items-start space-x-4">
+                            <i class="fab fa-line text-green-500 text-3xl"></i>
                             <div>
-                                <p class="font-semibold">Line Official</p>
-                                <a href="https://lin.ee/vtEP8xS" target="_blank" class="text-blue-600 hover:underline">@BKK-CDM2</a>
+                                <p class="font-bold text-lg mb-1">Line Official</p>
+                                <a href="https://lin.ee/vtEP8xS" target="_blank" class="text-blue-600 hover:underline font-medium text-lg">@BKK-CDM2</a>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="mt-6 space-y-3">
-                        <a href="https://maps.app.goo.gl/fiDFHrugowtAi15a6" target="_blank" 
-                           class="block w-full py-3 px-6 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-xl text-center font-semibold hover:scale-105 transition-all shadow-lg">
-                            <i class="fas fa-map mr-2"></i><span id="mapBtn">ดูแผนที่</span>
-                        </a>
+                    <!-- Right Column - Action Buttons & Activity Image -->
+                    <div class="space-y-6">
+                        <div class="rounded-2xl overflow-hidden shadow-lg card-hover">
+                            <img src="https://lh5.googleusercontent.com/d/1UFO4u8JuVUjorAnr8nH7cAhYhdOr90cR" 
+                                 alt="Bottle Challenge Match Activity" 
+                                 class="w-full h-auto"
+                                 onerror="this.src='data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 600 400\'%3E%3Crect fill=\'%23f0f0f0\'/%3E%3Ctext x=\'50%25\' y=\'50%25\' text-anchor=\'middle\' dy=\'.3em\' fill=\'%23999\' font-size=\'20\' font-family=\'sans-serif\'%3EBottle Challenge Match%3C/text%3E%3C/svg%3E'">
+                        </div>
                         
-                        <a href="https://lin.ee/vtEP8xS" target="_blank"
-                           class="block w-full py-3 px-6 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-xl text-center font-semibold hover:scale-105 transition-all shadow-lg">
-                            <i class="fab fa-line mr-2"></i><span id="lineBtn">เพิ่มเพื่อน Line</span>
-                        </a>
-                        
-                        <a href="tel:024263623"
-                           class="block w-full py-3 px-6 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl text-center font-semibold hover:scale-105 transition-all shadow-lg">
-                            <i class="fas fa-phone mr-2"></i><span id="callBtn">โทรสอบถาม</span>
-                        </a>
+                        <div class="space-y-3">
+                            <a href="https://maps.app.goo.gl/fiDFHrugowtAi15a6" target="_blank" 
+                               class="block w-full py-4 px-6 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-xl text-center font-bold text-lg hover:scale-105 transition-all shadow-lg">
+                                <i class="fas fa-map-marked-alt mr-2"></i><span id="mapBtn">ดูแผนที่การเดินทาง</span>
+                            </a>
+                            
+                            <a href="https://lin.ee/vtEP8xS" target="_blank"
+                               class="block w-full py-4 px-6 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-xl text-center font-bold text-lg hover:scale-105 transition-all shadow-lg">
+                                <i class="fab fa-line mr-2"></i><span id="lineBtn">เพิ่มเพื่อน Line Official</span>
+                            </a>
+                            
+                            <a href="tel:024263623"
+                               class="block w-full py-4 px-6 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl text-center font-bold text-lg hover:scale-105 transition-all shadow-lg">
+                                <i class="fas fa-phone-alt mr-2"></i><span id="callBtn">โทรสอบถามข้อมูล</span>
+                            </a>
+                        </div>
                     </div>
-                </div>
-                
-                <!-- Registration Form -->
-                <div class="bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-xl slide-in-right">
-                    <h3 class="text-2xl md:text-3xl font-bold mb-6 text-gray-800">
-                        <i class="fas fa-clipboard-list text-purple-600 mr-2"></i><span id="regTitle">ลงทะเบียนเข้าร่วมกิจกรรม</span>
-                    </h3>
-                    
-                    <form onsubmit="handleSubmit(event)" class="space-y-4">
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2" id="nameLabel">ชื่อ-นามสกุล</label>
-                            <input type="text" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition-all" 
-                                   placeholder="กรุณากรอกชื่อ-นามสกุล" id="nameInput">
-                        </div>
-                        
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2" id="ageLabel">อายุของเด็ก</label>
-                            <input type="number" required min="1" max="18" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition-all" 
-                                   placeholder="กรุณากรอกอายุ" id="ageInput">
-                        </div>
-                        
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2" id="phoneLabel">เบอร์โทรศัพท์</label>
-                            <input type="tel" required class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition-all" 
-                                   placeholder="กรุณากรอกเบอร์โทร" id="phoneInput">
-                        </div>
-                        
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2" id="emailLabel">อีเมล (ถ้ามี)</label>
-                            <input type="email" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition-all" 
-                                   placeholder="example@email.com" id="emailInput">
-                        </div>
-                        
-                        <div>
-                            <label class="block text-gray-700 font-semibold mb-2" id="messageLabel">ข้อความเพิ่มเติม</label>
-                            <textarea rows="3" class="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:border-purple-500 focus:outline-none transition-all" 
-                                      placeholder="หากมีข้อมูลเพิ่มเติม" id="messageInput"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="w-full py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-xl font-bold text-lg hover:scale-105 transition-all shadow-lg">
-                            <i class="fas fa-paper-plane mr-2"></i><span id="submitBtn">ส่งข้อมูล</span>
-                        </button>
-                    </form>
                 </div>
             </div>
         </div>
@@ -466,27 +434,13 @@
         </div>
     </footer>
 
-    <!-- Success Modal -->
-    <div id="successModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden items-center justify-center z-50">
-        <div class="bg-white rounded-3xl p-8 max-w-md mx-4 transform scale-0 transition-all" id="modalContent">
-            <div class="text-center">
-                <i class="fas fa-check-circle text-6xl text-green-500 mb-4"></i>
-                <h3 class="text-2xl font-bold mb-2" id="successTitle">ลงทะเบียนสำเร็จ!</h3>
-                <p class="text-gray-600 mb-6" id="successMsg">ข้อมูลของคุณถูกส่งเรียบร้อยแล้ว เราจะติดต่อกลับโดยเร็วที่สุด</p>
-                <button onclick="closeModal()" class="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-semibold hover:scale-105 transition-all">
-                    <span id="okBtn">ตกลง</span>
-                </button>
-            </div>
-        </div>
-    </div>
-
     <script>
         // Language toggle
         let isEnglish = false;
         const translations = {
             th: {
                 heroText: 'กิจกรรมพัฒนาทักษะการคิดและแก้ปัญหาสำหรับเด็ก',
-                joinBtn: 'ลงทะเบียนเข้าร่วม',
+                joinBtn: 'ติดต่อสอบถาม',
                 moreBtn: 'ข้อมูลเพิ่มเติม',
                 whyTitle: 'ทำไมต้อง Bottle Challenge?',
                 skill1: 'พัฒนาทักษะการคิด',
@@ -509,25 +463,15 @@
                 hoursDetail: 'อังคาร-อาทิตย์ และวันหยุดนักขัตฤกษ์',
                 closed: '(ปิดทุกวันจันทร์)',
                 contact: 'ติดต่อสอบถาม',
-                mapBtn: 'ดูแผนที่',
-                lineBtn: 'เพิ่มเพื่อน Line',
-                callBtn: 'โทรสอบถาม',
-                regTitle: 'ลงทะเบียนเข้าร่วมกิจกรรม',
-                nameLabel: 'ชื่อ-นามสกุล',
-                ageLabel: 'อายุของเด็ก',
-                phoneLabel: 'เบอร์โทรศัพท์',
-                emailLabel: 'อีเมล (ถ้ามี)',
-                messageLabel: 'ข้อความเพิ่มเติม',
-                submitBtn: 'ส่งข้อมูล',
+                mapBtn: 'ดูแผนที่การเดินทาง',
+                lineBtn: 'เพิ่มเพื่อน Line Official',
+                callBtn: 'โทรสอบถามข้อมูล',
                 footerText: 'เรียนรู้ร่วมกัน สร้างสรรค์อนาคต',
-                successTitle: 'ลงทะเบียนสำเร็จ!',
-                successMsg: 'ข้อมูลของคุณถูกส่งเรียบร้อยแล้ว เราจะติดต่อกลับโดยเร็วที่สุด',
-                okBtn: 'ตกลง',
                 langBtn: 'EN'
             },
             en: {
                 heroText: 'Activities to develop thinking and problem-solving skills for children',
-                joinBtn: 'Register Now',
+                joinBtn: 'Contact Us',
                 moreBtn: 'Learn More',
                 whyTitle: 'Why Bottle Challenge?',
                 skill1: 'Develop Thinking Skills',
@@ -551,19 +495,9 @@
                 closed: '(Closed every Monday)',
                 contact: 'Contact Information',
                 mapBtn: 'View Map',
-                lineBtn: 'Add Line Friend',
+                lineBtn: 'Add Line Official',
                 callBtn: 'Call Now',
-                regTitle: 'Register for Activity',
-                nameLabel: 'Full Name',
-                ageLabel: 'Child\'s Age',
-                phoneLabel: 'Phone Number',
-                emailLabel: 'Email (Optional)',
-                messageLabel: 'Additional Message',
-                submitBtn: 'Submit',
                 footerText: 'Learning together, Creating the future',
-                successTitle: 'Registration Successful!',
-                successMsg: 'Your information has been sent successfully. We will contact you soon.',
-                okBtn: 'OK',
                 langBtn: 'TH'
             }
         };
@@ -578,13 +512,6 @@
                     element.textContent = translations[lang][key];
                 }
             });
-            
-            // Update placeholders
-            document.getElementById('nameInput').placeholder = isEnglish ? 'Please enter your name' : 'กรุณากรอกชื่อ-นามสกุล';
-            document.getElementById('ageInput').placeholder = isEnglish ? 'Please enter age' : 'กรุณากรอกอายุ';
-            document.getElementById('phoneInput').placeholder = isEnglish ? 'Please enter phone number' : 'กรุณากรอกเบอร์โทร';
-            document.getElementById('emailInput').placeholder = isEnglish ? 'example@email.com' : 'example@email.com';
-            document.getElementById('messageInput').placeholder = isEnglish ? 'Additional information' : 'หากมีข้อมูลเพิ่มเติม';
         }
 
         // Dark mode toggle
@@ -605,37 +532,6 @@
                 icon.classList.remove('fa-sun');
                 icon.classList.add('fa-moon');
             }
-        }
-
-        // Form submission
-        function handleSubmit(event) {
-            event.preventDefault();
-            
-            // Show success modal
-            const modal = document.getElementById('successModal');
-            const modalContent = document.getElementById('modalContent');
-            
-            modal.classList.remove('hidden');
-            modal.classList.add('flex');
-            
-            setTimeout(() => {
-                modalContent.classList.add('scale-100');
-            }, 100);
-            
-            // Reset form
-            event.target.reset();
-        }
-
-        function closeModal() {
-            const modal = document.getElementById('successModal');
-            const modalContent = document.getElementById('modalContent');
-            
-            modalContent.classList.remove('scale-100');
-            
-            setTimeout(() => {
-                modal.classList.add('hidden');
-                modal.classList.remove('flex');
-            }, 300);
         }
 
         // Smooth scroll
